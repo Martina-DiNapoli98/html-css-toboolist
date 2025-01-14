@@ -7,6 +7,7 @@
     --tbl-mobile: #f29e33;
     --tbl-website: #d863a1;
     --tbl-sales: #b0c926;
+    --tbl-goals:#9c72e4;
     }
 
     body{
@@ -27,21 +28,29 @@
     #background{
         background-color: var(--tbl-light);
         padding: 10px;
-        
+        margin: 0;
     }
 
     #container{
         background-color: white;
-        margin: 2px;
-        padding-left: 60px;
-        
-     }
-
-     #container-2{
-        background-color: white;
         margin: 1px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 190px;
+        margin-right: 190px;
         
-     }
+        
+    }
+
+    #container-2{
+        background-color: white;
+        margin: 3px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 190px;
+        margin-right: 190px;
+
+    }
 
     #task{
     display: inline-block;
@@ -51,30 +60,96 @@
     border: 1px solid lightgrey;
     border-radius: 3px;
     margin-right: 8px;
-        
+   
+    
 }
 
 .text-task{
     
     color: white;
     margin: auto;
+    height: 200px;
+    line-height: 2;
     
 }
 
 .text-section{
     margin: auto;
+    color: lightgray;
+    height: 200px;
+    line-height: 2;
 }
 
      #section{
         display:inline-block;
         width: 80px;
         height: 30px;
-        color: lightgray;
         border: 1px solid lightgrey;
         border-radius: 3px ;
      }
 
-    
+     .editorial{
+        background-color: var(--tbl-editorial);
+        width: 50px;
+        height: 20px;;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+     }
+
+     .goals{
+        background-color: var(--tbl-goals);
+        width: 50px;
+        height: 20px;;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+     }
    
+     
+     .recruiting{
+        background-color: var(--tbl-recruiting);
+        width: 50px1;
+        height: 20px;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+     }
+
+     .mobile{
+        background-color: var(--tbl-mobile);
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+
+     }
+
+     .container-text{
+        padding: 10px;
+        border: 10px;
+        margin: 10px;
+     }
+
+     .website{
+        background-color: var(--tbl-website);
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+
+     }
+
+     .sales{
+        background-color: var(--tbl-sales);
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        color: white;
+        padding: 4px;
+
+     }
 
      
