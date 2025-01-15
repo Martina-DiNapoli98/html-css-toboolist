@@ -9,94 +9,106 @@
 <body>
     
 <header>
-    <!-- logo -->
-    <section>
-        <div class="logo">
-            <img src="./logo/Logo.png" alt="logo-toboolist">
-            <span class="text-logo"><strong>Toboolist</strong></span>
-        </div>
-        
-    </section>
 
-</header>
+     <!-- logo -->
+    
+     <div class="logo">
+        <img src="./logo/Logo.png" alt="logo-toboolist">
+        <span class="text-logo"><strong>Toboolist</strong></span>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <button class="task"> Add Task</button>
+                <button class="section"> Add Section</button>
+    
+            </div>
 
-<main>
-    <!-- background + container + text -->
-    <div id="background"> 
-        
-        <div id="container">
-        
-            <div id="task">
-                <p class="text-task">Add task</p>
-            </div>
-            <div id="section">
-               <p class="text-section">Add section</p>
-             
-            </div>
-        
-            <!-- container 2 + toboolist -->
-        </div>
-        <div id="container-2">
-            <div class="container-text">
-                <h3> &#9207; New Task</h3>
-           <span> &#x2611; Quarterly Newsletter</span>
-           <span class="editorial">Editorial</span>
+            <div class="bottom">
+                <details open>
+                    <summary>
+                        <strong>New Task</strong>
+                    </summary>
+                    <ul>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Quarterly Newsletter
+                            <span class="tag tag-editorial">Editorial</span>
+                        </li>
+                         
+                    </ul>
+                    
+                </details>
+
+                <details open>
+                    <summary>
+                        <strong>Today</strong>
+                    </summary>
+                    <ul>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Recruiting blog post
+                            <span class="tag tag-editorial">Editorial
+    
+                            </span>
+                        </li>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Mobile app lunch
+                            <span class="tag tag-recruiting"> Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="circle circle-x">&times;</span>
+                            Interview John H.
+                            <span class="tag tag-goals">Q1 Goals</span>
+                        </li>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Summit update to mobile storefronts
+                            <span class="tag tag-mobile">Mobile</span>
+                        </li>
+                    </ul>
+                </details>
+                
+
+                <details open>
+                    <summary>
+                        <strong>Upcoming</strong>
+                    </summary>
+                    <ul>
+                        <li>
+                            <span class="circle circle-x">&times;</span>
+                            Schedule Meeting with Alex
+                        </li>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Homepage refresh 
+                            <span class="tag tag-website">Website</span>
+                        </li>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Onboard new Sales team members
+                            <span class="tag tag-sales">Sales</span>
+                        </li>
+                        <li>
+                            <span class="circle circle-check">&checkmark;</span>
+                            Review editorial calendar
+                            <span class="tag tag-editorial">Editorial
+    
+                            </span>
+                        </li>
+                    </ul>
+                </details>
+                
             </div>
            
+        </div>
         
-
-           <h3>&#9207; Today</h3>
-
-           <div class="container-text">
-            <span> &#x2611; Recruiting block post</span>
-            <span class="editorial">Editorial</span>
-            </div>
-
-
-            <div class="container-text">
-                <span> &#x2611; Mobile app lunch</span>
-           <span class="goals">Q1 Goals</span> 
-            </div>
-
-
-           <div class="container-text">
-            <span> &times; Interview John H.</span>
-            <span class="recruiting "> Recruiting </span>
-           </div>
-
-
-           <div class="container-text">
-            <span> &#x2611; Summit update to mobile storefronts</span>
-           <span class="mobile ">Mobile</span> 
-           </div>
-
-
-           <div class="container-text">
-            <h3>&#9207; Upcoming</h3>
-           <div>&times; Schedule meeting with Alex</div>
-           </div>
-
-
-           <div class="container-text">
-            <span>&#x2611; Homepage refresh </span>
-            <span class="website">Website </span>
-           </div>
-
-
-           <div class="container-text">
-            <span> &#x2611; Onboard new Sales team members </span>
-           <span class="sales ">Sales</span> 
-           </div>
-
-
-           <div class="container-text">
-            <span> &#x2611; Review editorial calendar </span>
-           <span class="editorial ">Editorial </span> 
-           </div>
-
-        </div> 
+        
     </div>
-</main>
+</header>
+   
 
 
 </body>
